@@ -40,3 +40,20 @@ The system demonstrates **OOP concepts**, **JDBC integration**, and **role-based
 ---
 
 ## 📂 Project Structure
+        MiniPaymentSystem/
+        │── lib/ # MySQL Connector .jar
+        │── sql/ # Database schema
+        │ └── schema.sql
+        │── src/
+        │ ├── app/ # GUI & main entry
+        │ │ ├── LoginUI.java
+        │ │ └── Dashboard.java
+        │ ├── db/ # Database connection
+        │ │ └── DatabaseConnection.java
+        │ ├── models/ # Entity classes
+        │ │ ├── User.java
+        │ │ └── Transaction.java
+        │ └── services/ # Business logic
+        │ ├── AuthService.java
+        │ └── UserService.java
+        │── bin/ # Compiled classes
