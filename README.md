@@ -40,29 +40,29 @@ The system demonstrates **OOP concepts**, **JDBC integration**, and **role-based
 ---
 
 ## Project Structure 
-│
-├── bin
-│
-├── lib
-│   └── mysql-connector-j-9.4...  (MySQL Connector Java Library)
-│
-├── sql
-│   └── schema.sql                (Database schema definitions)
-│
-├── src
-│   ├── app
-│   │   ├── Dashboard.java       (Dashboard UI and logic)
-│   │   ├── LoginUI.java         (Login user interface)
-│   │   └── Main.java            (Main application entry point)
-│   │
-│   ├── db
-│   │   └── DatabaseConnection.java  (Database connection setup)
-│   │
-│   ├── models
-│   │   ├── Transaction.java     (Transaction data model)
-│   │   └── User.java            (User data model)
-│   │
-│   └── services
-│       ├── AuthService.java     (Authentication services)
-│       └── UserService.java     (User-related business logic)
+    │
+    ├── bin
+    │
+    ├── lib
+    │   └── mysql-connector-j-9.4...  (MySQL Connector Java Library)
+    │
+    ├── sql
+    │   └── schema.sql                (Database schema definitions)
+    │
+    ├── src
+    │   ├── app
+    │   │   ├── Dashboard.java       (Dashboard UI and logic)
+    │   │   ├── LoginUI.java         (Login user interface)
+    │   │   └── Main.java            (Main application entry point)
+    │   │
+    │   ├── db
+    │   │   └── DatabaseConnection.java  (Database connection setup)
+    │   │
+    │   ├── models
+    │   │   ├── Transaction.java     (Transaction data model)
+    │   │   └── User.java            (User data model)
+    │   │
+    │   └── services
+    │       ├── AuthService.java     (Authentication services)
+    │       └── UserService.java     (User-related business logic)
 
